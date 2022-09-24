@@ -77,5 +77,38 @@ ul {
 
 /* This is hero/header styling */
 
+.header { 
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
+}
 
+.header h1 { 
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header button {
+    margin: 15px 0px;
+    padding: 5px 25px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    color: #F9FAF8;
+    font-weight: 600;
+
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
 
