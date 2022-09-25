@@ -18,20 +18,22 @@ img {
     max-width: 100%;
 }
 
+.logo {
+    font-weight: 900;
+}
+
 h1, h2, {
     margin-bottom: 15px;
 }
 
 ul {
     list-style-type: none;
-    
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
-
 }
 
 /* This is Navbar styling */
@@ -64,7 +66,6 @@ ul {
    justify-content: space-between; 
    align-items: center;
    height: 100%;
-
 }
 
 .navbar ul {
@@ -106,7 +107,7 @@ ul {
     border-radius: 7px;
     color: #F9FAF8;
     font-weight: 600;
-
+    border: none;
 }
 
 .header .container {
@@ -125,22 +126,16 @@ ul {
     padding: 20px;
 }
 
-.boxes {
-    
-}
-
 .boxes .container {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    
 }
 
 .box {
     flex: 1;
     padding: 20px;
     border-radius: 15px;
-
 }
 
 .box p {
@@ -154,3 +149,74 @@ ul {
     border-radius: 10px;
     border: 5px solid #3882F6;
 }
+
+/* This is quote styling */
+
+.quote { 
+    background-color: #e5e7eb;
+    padding: 20px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-main {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px;
+}
+
+.quote .quote-source {
+    text-align: end;
+    padding-right: 50px;
+    margin-top: -20px;
+}
+
+/* This is the call to action styling */
+
+.call-to-action {
+
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.call-to-action .container {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    display: flex;
+    margin: 60px;
+    padding: 35px 25px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.cta-text-main {
+    font-size: 24px;
+}
+
+.call-to-action button {
+    padding: 0 35px;
+    border-radius: 7px;
+    color: #F9FAF8;
+    font-weight: 600;
+    border: none;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+}
+
+/* This is the footer styling */
+
+.footer {
+    background-color:#1F2937;
+    color:#e5e7eb;
+    display: flex;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
